@@ -1,0 +1,13 @@
+name: neuratron
+version: 0.1.0
+
+authors:
+  - Alexandre Lairan <lairana@free.fr>
+
+targets:
+  neuratron:
+    main: src/neuratron.cr
+
+crystal: 0.33.0
+
+license: MIT
