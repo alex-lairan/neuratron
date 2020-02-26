@@ -1,6 +1,10 @@
-# TODO: Write documentation for `Neuratron`
+require "linalg"
+require "./neuratron/**"
+
+# TODO:
+# Callbacks
+# Dropout
+# Save model
 module Neuratron
   VERSION = "0.1.0"
-
-  # TODO: Put your code here
 end
