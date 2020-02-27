@@ -52,12 +52,7 @@ We have to compile our model to build all weight and biases for our model.
 ```crystal
 model.compile(
   loss: Neuratron::Losses::MAE.new,
-  optimizer: Neuratron::Optimizers::SGD.new(momentum: 0.80),model.compile(
-  loss: Neuratron::Losses::MAE.new,
   optimizer: Neuratron::Optimizers::SGD.new(momentum: 0.80),
-  metrics: [Neuratron::Metrics::CategoricalAccuracy.new] of Neuratron::Metric
-)
-
   metrics: [Neuratron::Metrics::CategoricalAccuracy.new] of Neuratron::Metric
 )
 ```
